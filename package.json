@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "send": "ts-node scripts/transferSLN.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "viem": "^2.21.44"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",          // or any version you need
+    "module": "commonjs",     // "commonjs" is generally recommended for Node.js
+    "moduleResolution": "node",
+    "esModuleInterop": true,  // helpful for importing CommonJS modules
+    "strict": true,           // enables all strict type-checking options
+    "skipLibCheck": true,     // recommended setting for faster builds
+    "outDir": "./dist",       // optional, specify your output directory
+    "resolveJsonModule": true // if you import JSON files
+  },
+  "include": [
+    "scripts/**/*"           // or wherever your TypeScript files are located
+  ]
+}
